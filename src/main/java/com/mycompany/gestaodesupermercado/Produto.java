@@ -43,6 +43,10 @@ class Produto {
     public int getEstoque(){
         return estoque;
     }
+    
+    protected void setEstoque(int estoque){
+        this.estoque = estoque;
+    }
 
 
 }
